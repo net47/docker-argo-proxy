@@ -31,3 +31,7 @@ docker run -d \
   -v /path/to/your/log:/var/log \
 MyCompany/argo-proxy
 ```
+Using the ```config.yaml``` above, the following applies:
+
+* Public URL for clients is ```example.mycompany.com```
+* Traffic to ```example.mycompany.com``` gets into the Argo tunnel and reaches the origin server ```https://192.168.99.128```
