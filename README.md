@@ -17,7 +17,7 @@ docker build --no-cache -t MyCompany/argo-proxy .
 
 * ```cert.pem```: your certificate from the Argo authorization, make sure that the name is ```cert.pem```
 * ```suvervisord.conf```: supervisord config, no need to change that
-* ```config.yaml```: change to your needs, see the [command-line arguments](https://developers.cloudflare.com/argo-tunnel/reference/arguments/)
+* ```config.yaml```: change URL and other options to your needs, see the [command-line arguments](https://developers.cloudflare.com/argo-tunnel/reference/arguments/)
 * Logging: as you like
 
 
